@@ -2,7 +2,9 @@
 #define _SEGMENTATION_H_
 #include <iostream>
 #include "CImg.h"
+#include "HoughTransform.h"
 #include "Segmentation.h"
+#include "Matrix.h"
 #include <cmath>
 #include <String>
 using namespace std;
@@ -18,7 +20,9 @@ public:
 	int otsu();
 	CImg<unsigned char> getGrayImage();
 	int otsu(const CImg<unsigned char>& grayImg) ;
-	void testSegmentation(const CImg<unsigned char>& grayImg, const int& threshold);
+	CImg<unsigned char> testSegmentation(CImg<unsigned char>& grayImg, const int& threshold);
+	Matrix getHMatrix(const vector<pair<int,int>> & points) ;
+	void warpingA4(Matrix & H);
 private:
 	CImg<unsigned char> img;
 	int smallHeight;

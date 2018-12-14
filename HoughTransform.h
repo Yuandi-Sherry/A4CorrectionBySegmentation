@@ -28,15 +28,14 @@ private:
 	int threshold;
 
 public:
-	HoughTransform(CImg<unsigned char> img, CImg<unsigned char> origin, int id, int thres);
-	void run();
+	HoughTransform(const CImg<unsigned char> & inputImg, const CImg<unsigned char> & origin, int id, int thres);
 	void initTriangle();
 	void findLocalMaximums(int);
 	void fillAccumulation();
-	void generateLines();
-	void drawPoints();
+	void generateLines(const int & dia);
+	vector<pair<int, int>> getPoints();
 	void filter();
-	void pointsOnLine();
+	// void getPointsOnLine();
 };
 
 #endif // !HOUGH_TRANSFORM

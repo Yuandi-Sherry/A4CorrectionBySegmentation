@@ -6,6 +6,10 @@ using namespace std;
 using namespace cimg_library;
 
 int main() {
-	Segmentation segmentation("sss");
+
+	for(int i = 1; i <= 6; i++) {
+		string filename = to_string(i) + ".bmp";
+		Segmentation segmentation(filename);
+	}
 	
 }
