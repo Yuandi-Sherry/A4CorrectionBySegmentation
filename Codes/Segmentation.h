@@ -21,11 +21,19 @@ public:
 	CImg<unsigned char> getGrayImage();
 	int otsu(const CImg<unsigned char>& grayImg) ;
 	CImg<unsigned char> testSegmentation(CImg<unsigned char>& grayImg, const int& threshold);
+	void sortPoints(std::vector<pair<int,int>> & points);
 	Matrix getHMatrix(const vector<pair<int,int>> & points) ;
-	void warpingA4(Matrix & H);
+	CImg<unsigned char> warpingA4(Matrix & H);
+
 private:
+	// 用于缩小处理的图片
 	CImg<unsigned char> img;
+	// 原图
+	CImg<unsigned char> origin;
 	int smallHeight;
 	int smallWidth;
+
+	int width;
+	int height;
 };
 #endif
