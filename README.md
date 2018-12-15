@@ -333,42 +333,42 @@ cimg_forXY(result, x, y) {
 
 根据图像分割检测边缘的结果：
 
-![Edge3](imgs\Edge1.bmp)
+![Edge3](imgs/Edge1.bmp)
 
-![Edge4](imgs\Edge2.bmp)
+![Edge4](imgs/Edge2.bmp)
 
-![Edge6](imgs\Edge3.bmp)
+![Edge6](imgs/Edge3.bmp)
 
-![Edge2](imgs\Edge4.bmp)
+![Edge2](imgs/Edge4.bmp)
 
-![Edge6](imgs\Edge5.bmp)
+![Edge6](imgs/Edge5.bmp)
 
-![Edge6](imgs\Edge6.bmp)
+![Edge6](imgs/Edge6.bmp)
 
 边缘检测的结果：
 
-![6paperPoint_origin](imgs\1paperPoint_origin.bmp)
+![6paperPoint_origin](imgs/1paperPoint_origin.bmp)
 
-![1paperPoint_origin](imgs\2paperPoint_origin.bmp)
+![1paperPoint_origin](imgs/2paperPoint_origin.bmp)
 
-![2paperPoint_origin](imgs\3paperPoint_origin.bmp)
+![2paperPoint_origin](imgs/3paperPoint_origin.bmp)
 
-![3paperPoint_origin](imgs\4paperPoint_origin.bmp)
+![3paperPoint_origin](imgs/4paperPoint_origin.bmp)
 
-![4paperPoint_origin](imgs\5paperPoint_origin.bmp)
+![4paperPoint_origin](imgs/5paperPoint_origin.bmp)
 
-![5paperPoint_origin](imgs\6paperPoint_origin.bmp)
+![5paperPoint_origin](imgs/6paperPoint_origin.bmp)
 
 矫正结果：
 
-![Result1](imgs\Result1.bmp)
+![Result1](imgs/Result1.bmp)
 
-![Result2](imgs\Result2.bmp)
+![Result2](imgs/Result2.bmp)
 
-![Result3](imgs\Result3.bmp)
+![Result3](imgs/Result3.bmp)
 
-![Result4](imgs\Result4.bmp)
+![Result4](imgs/Result4.bmp)
 
-![Result5](imgs\Result5.bmp)
+![Result5](imgs/Result5.bmp)
 
-![Result6](imgs\Result6.bmp)
+![Result6](imgs/Result6.bmp)
